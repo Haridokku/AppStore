@@ -1,0 +1,35 @@
+.app-container {
+  background-color: #ace0f9;
+  display: flex;
+  justify-content: center;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+}
+.head {
+  color: #1e293b;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+}
+.tab-item-container {
+  list-style-type: none;
+  display: flex;
+}
+.input-container {
+  border: 2px solid #1e293b;
+  display: flex;
+  justify-content: space-between;
+}
+.icon {
+  width: 50px;
+}
+.app-item-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
